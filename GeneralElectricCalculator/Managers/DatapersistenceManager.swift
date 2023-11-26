@@ -16,6 +16,8 @@ class DatapersistenceManager {
         case failedToFetchData
         case failedToDeleteData
         case invalidAppDelegate
+        case userNotFound
+        case failedToUpdateData
     }
     
     
@@ -37,6 +39,7 @@ class DatapersistenceManager {
         item.consumptionPrice = model.lastConsumption
         item.consumptions = model.consumptions as NSArray
         item.calculatedConsumption = model.calculatedCost
+        item.billPrices = model.billPrices as NSArray
         
         
         do {
@@ -48,27 +51,38 @@ class DatapersistenceManager {
         }
     }
     
-    func fetchUsers() -> [UserInfo] {
-        var users: [UserInfo] = []
-        
-        do{
-            users = try context.fetch(UserInfo.fetchRequest())
-        }catch {
-            print("will be logged Fetch User error", error)
+    func updateUser(updatedConsumptions:[String?], billPrices:[String?], updatedTotalCost: String ,model: InternalUserModel, completion: @escaping (Result<Void, Error>) -> Void) {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            completion(.failure(DatabaseError.invalidAppDelegate))
+            return
         }
-        print(users)
-        return users
-    }
-    
-//    private func addUpdateUser(userEntity: UserEntity, user: UserModel) {
-//            userEntity.firstName = user.firstName
-//            userEntity.lastName = user.lastName
-//            userEntity.email = user.email
-//            userEntity.password = user.password
-//            userEntity.imageName = user.imageName
-//            saveContext()
-//        }
 
+        let context = appDelegate.persistentContainer.viewContext
+        
+        // Fetch the existing user from Core Data
+        let request: NSFetchRequest<UserInfo> = UserInfo.fetchRequest()
+        request.predicate = NSPredicate(format: "serviceNumber == %@", model.serviceNumber)
+        
+        do {
+            let results = try context.fetch(request)
+            if let existingUser = results.first {
+                // Update the existing user with the new values
+                existingUser.consumptions = updatedConsumptions as NSArray
+                existingUser.calculatedConsumption = updatedTotalCost
+                existingUser.billPrices = billPrices as NSArray
+                existingUser.calculatedConsumption = updatedTotalCost
+                try context.save()
+                completion(.success(()))
+            } else {
+                completion(.failure(DatabaseError.userNotFound))
+            }
+        } catch {
+            completion(.failure(DatabaseError.failedToUpdateData))
+            print(error.localizedDescription)
+        }
+    }
+
+    
     func fetchUserModel(withServiceNumber serviceNumber: String, completion: @escaping (Result<UserInfo?, Error>) -> Void) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             completion(.failure(DatabaseError.invalidAppDelegate))

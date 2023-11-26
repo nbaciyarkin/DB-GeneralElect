@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import UIKit
+
+class ConsumptionCalculatorRouter {
+    
+    static func showConsumptionCalculatorScreen() -> ConsumptionCalculatorvViewController{
+        let vc = ConsumptionCalculatorvViewController()
+        return vc
+    }
+}

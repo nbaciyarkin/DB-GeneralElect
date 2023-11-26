@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit",
+        "state": {
+          "branch": "develop",
+          "revision": "58320fe80522414bf3a7e24c88123581dc586752",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftMessages",
+        "repositoryURL": "https://github.com/SwiftKickMobile/SwiftMessages",
+        "state": {
+          "branch": null,
+          "revision": "b29dd21090b708aa0ae9ecbaf6e2d0487028dc3f",
+          "version": "9.0.6"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

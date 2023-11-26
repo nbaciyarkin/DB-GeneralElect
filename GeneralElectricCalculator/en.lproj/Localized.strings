@@ -5,3 +5,7 @@
   Created by Yarkın Gazibaba on 3.06.2023.
   
 */
+
+// MARK: - Consumption Calculator
+"customer_service_info_label" = "Service Number Info";
+"customer_service_current_meter_info_label" = "Current Meter";
