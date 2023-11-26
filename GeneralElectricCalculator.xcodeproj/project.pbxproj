@@ -7,25 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EC65FA82A2B362C00B0C954 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FA72A2B362C00B0C954 /* BaseViewController.swift */; };
+		4EC65FAA2A2B365300B0C954 /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FA92A2B365300B0C954 /* Callback.swift */; };
+		4EC65FAD2A2B40EA00B0C954 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FAC2A2B40EA00B0C954 /* AnimatedButton.swift */; };
+		4EC65FAF2A2B411C00B0C954 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FAE2A2B411C00B0C954 /* Alert.swift */; };
+		4EC65FB22A2B414E00B0C954 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 4EC65FB12A2B414E00B0C954 /* SwiftMessages */; };
+		4EC65FB42A2B437300B0C954 /* ConsumptionCalculatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FB32A2B437300B0C954 /* ConsumptionCalculatorInteractor.swift */; };
+		4EC65FBF2A2B4EA200B0C954 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EC65FC12A2B4EA200B0C954 /* Localized.strings */; };
+		4EC65FC52A2B583400B0C954 /* CustomerHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FC42A2B583400B0C954 /* CustomerHistoryViewController.swift */; };
+		4EC65FC72A2B5DDA00B0C954 /* InternalUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FC62A2B5DDA00B0C954 /* InternalUserModel.swift */; };
+		4EC65FCB2A2B5E2200B0C954 /* DatapersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FCA2A2B5E2200B0C954 /* DatapersistenceManager.swift */; };
+		4EC65FCD2A2B8BC900B0C954 /* CustomerHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FCC2A2B8BC900B0C954 /* CustomerHistoryRouter.swift */; };
+		4EC65FD12A2B944A00B0C954 /* ConsumptionCalculatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FD02A2B944A00B0C954 /* ConsumptionCalculatorRouter.swift */; };
+		4EC65FD32A2B9EB100B0C954 /* CustomerHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FD22A2B9EB100B0C954 /* CustomerHistoryInteractor.swift */; };
+		4EC65FD52A2BA02800B0C954 /* ReadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FD42A2BA02800B0C954 /* ReadingTableViewCell.swift */; };
+		4EC65FD82A2BC9E200B0C954 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC65FD72A2BC9E200B0C954 /* Calculator.swift */; };
 		4EFB6EDE2A2B246800423C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB6EDD2A2B246800423C59 /* AppDelegate.swift */; };
 		4EFB6EE02A2B246800423C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB6EDF2A2B246800423C59 /* SceneDelegate.swift */; };
-		4EFB6EE22A2B246800423C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB6EE12A2B246800423C59 /* ViewController.swift */; };
+		4EFB6EE22A2B246800423C59 /* ConsumptionCalculatorvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB6EE12A2B246800423C59 /* ConsumptionCalculatorvViewController.swift */; };
 		4EFB6EE52A2B246800423C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFB6EE32A2B246800423C59 /* Main.storyboard */; };
 		4EFB6EE82A2B246800423C59 /* GeneralElectricCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB6EE62A2B246800423C59 /* GeneralElectricCalculator.xcdatamodeld */; };
 		4EFB6EEA2A2B246900423C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFB6EE92A2B246900423C59 /* Assets.xcassets */; };
 		4EFB6EED2A2B246900423C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFB6EEB2A2B246900423C59 /* LaunchScreen.storyboard */; };
+		4EFB6EF92A2B2B9000423C59 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4EFB6EF82A2B2B9000423C59 /* SnapKit */; };
+		4EFB6EFC2A2B325100423C59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB6EFB2A2B325100423C59 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EC65FA72A2B362C00B0C954 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4EC65FA92A2B365300B0C954 /* Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callback.swift; sourceTree = "<group>"; };
+		4EC65FAC2A2B40EA00B0C954 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		4EC65FAE2A2B411C00B0C954 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4EC65FB32A2B437300B0C954 /* ConsumptionCalculatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionCalculatorInteractor.swift; sourceTree = "<group>"; };
+		4EC65FC02A2B4EA200B0C954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
+		4EC65FC22A2B4EB000B0C954 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localized.strings; sourceTree = "<group>"; };
+		4EC65FC42A2B583400B0C954 /* CustomerHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHistoryViewController.swift; sourceTree = "<group>"; };
+		4EC65FC62A2B5DDA00B0C954 /* InternalUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalUserModel.swift; sourceTree = "<group>"; };
+		4EC65FCA2A2B5E2200B0C954 /* DatapersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatapersistenceManager.swift; sourceTree = "<group>"; };
+		4EC65FCC2A2B8BC900B0C954 /* CustomerHistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHistoryRouter.swift; sourceTree = "<group>"; };
+		4EC65FD02A2B944A00B0C954 /* ConsumptionCalculatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionCalculatorRouter.swift; sourceTree = "<group>"; };
+		4EC65FD22A2B9EB100B0C954 /* CustomerHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerHistoryInteractor.swift; sourceTree = "<group>"; };
+		4EC65FD42A2BA02800B0C954 /* ReadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTableViewCell.swift; sourceTree = "<group>"; };
+		4EC65FD72A2BC9E200B0C954 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		4EFB6EDA2A2B246800423C59 /* GeneralElectricCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralElectricCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFB6EDD2A2B246800423C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EFB6EDF2A2B246800423C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EFB6EE12A2B246800423C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFB6EE12A2B246800423C59 /* ConsumptionCalculatorvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionCalculatorvViewController.swift; sourceTree = "<group>"; };
 		4EFB6EE42A2B246800423C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EFB6EE72A2B246800423C59 /* GeneralElectricCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeneralElectricCalculator.xcdatamodel; sourceTree = "<group>"; };
 		4EFB6EE92A2B246900423C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EFB6EEC2A2B246900423C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EFB6EEE2A2B246900423C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFB6EFB2A2B325100423C59 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +66,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC65FB22A2B414E00B0C954 /* SwiftMessages in Frameworks */,
+				4EFB6EF92A2B2B9000423C59 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EC65FA62A2B361B00B0C954 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FA72A2B362C00B0C954 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4EC65FAB2A2B40DB00B0C954 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FAC2A2B40EA00B0C954 /* AnimatedButton.swift */,
+				4EC65FAE2A2B411C00B0C954 /* Alert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4EC65FC32A2B581E00B0C954 /* CustomerHistoryScene */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FC42A2B583400B0C954 /* CustomerHistoryViewController.swift */,
+				4EC65FCC2A2B8BC900B0C954 /* CustomerHistoryRouter.swift */,
+				4EC65FD22A2B9EB100B0C954 /* CustomerHistoryInteractor.swift */,
+				4EC65FD62A2BA04A00B0C954 /* ReadingTableViewCell */,
+			);
+			path = CustomerHistoryScene;
+			sourceTree = "<group>";
+		};
+		4EC65FC82A2B5E0700B0C954 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FCA2A2B5E2200B0C954 /* DatapersistenceManager.swift */,
+				4EC65FC92A2B5E0E00B0C954 /* AppManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4EC65FC92A2B5E0E00B0C954 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EFB6EDD2A2B246800423C59 /* AppDelegate.swift */,
+				4EFB6EDF2A2B246800423C59 /* SceneDelegate.swift */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		4EC65FD62A2BA04A00B0C954 /* ReadingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FD42A2BA02800B0C954 /* ReadingTableViewCell.swift */,
+			);
+			path = ReadingTableViewCell;
+			sourceTree = "<group>";
+		};
 		4EFB6ED12A2B246800423C59 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +147,57 @@
 		4EFB6EDC2A2B246800423C59 /* GeneralElectricCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				4EFB6EDD2A2B246800423C59 /* AppDelegate.swift */,
-				4EFB6EDF2A2B246800423C59 /* SceneDelegate.swift */,
-				4EFB6EE12A2B246800423C59 /* ViewController.swift */,
+				4EC65FD72A2BC9E200B0C954 /* Calculator.swift */,
+				4EC65FC82A2B5E0700B0C954 /* Managers */,
+				4EC65FA62A2B361B00B0C954 /* Base */,
+				4EFB6EFA2A2B323C00423C59 /* Helper */,
+				4EFB6EF52A2B293A00423C59 /* Scene */,
 				4EFB6EE32A2B246800423C59 /* Main.storyboard */,
 				4EFB6EE92A2B246900423C59 /* Assets.xcassets */,
 				4EFB6EEB2A2B246900423C59 /* LaunchScreen.storyboard */,
 				4EFB6EEE2A2B246900423C59 /* Info.plist */,
 				4EFB6EE62A2B246800423C59 /* GeneralElectricCalculator.xcdatamodeld */,
+				4EC65FC12A2B4EA200B0C954 /* Localized.strings */,
 			);
 			path = GeneralElectricCalculator;
+			sourceTree = "<group>";
+		};
+		4EFB6EF42A2B24F500423C59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FC62A2B5DDA00B0C954 /* InternalUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EFB6EF52A2B293A00423C59 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4EC65FC32A2B581E00B0C954 /* CustomerHistoryScene */,
+				4EFB6EF62A2B294300423C59 /* ConsumptionCalculatorScene */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4EFB6EF62A2B294300423C59 /* ConsumptionCalculatorScene */ = {
+			isa = PBXGroup;
+			children = (
+				4EFB6EE12A2B246800423C59 /* ConsumptionCalculatorvViewController.swift */,
+				4EC65FB32A2B437300B0C954 /* ConsumptionCalculatorInteractor.swift */,
+				4EC65FD02A2B944A00B0C954 /* ConsumptionCalculatorRouter.swift */,
+			);
+			path = ConsumptionCalculatorScene;
+			sourceTree = "<group>";
+		};
+		4EFB6EFA2A2B323C00423C59 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4EFB6EF42A2B24F500423C59 /* Model */,
+				4EC65FAB2A2B40DB00B0C954 /* Utils */,
+				4EFB6EFB2A2B325100423C59 /* Constants.swift */,
+				4EC65FA92A2B365300B0C954 /* Callback.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +216,10 @@
 			dependencies = (
 			);
 			name = GeneralElectricCalculator;
+			packageProductDependencies = (
+				4EFB6EF82A2B2B9000423C59 /* SnapKit */,
+				4EC65FB12A2B414E00B0C954 /* SwiftMessages */,
+			);
 			productName = GeneralElectricCalculator;
 			productReference = 4EFB6EDA2A2B246800423C59 /* GeneralElectricCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -112,8 +246,13 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 4EFB6ED12A2B246800423C59;
+			packageReferences = (
+				4EFB6EF72A2B2B9000423C59 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4EC65FB02A2B414E00B0C954 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+			);
 			productRefGroup = 4EFB6EDB2A2B246800423C59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC65FBF2A2B4EA200B0C954 /* Localized.strings in Resources */,
 				4EFB6EED2A2B246900423C59 /* LaunchScreen.storyboard in Resources */,
 				4EFB6EEA2A2B246900423C59 /* Assets.xcassets in Resources */,
 				4EFB6EE52A2B246800423C59 /* Main.storyboard in Resources */,
@@ -141,16 +281,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFB6EE22A2B246800423C59 /* ViewController.swift in Sources */,
+				4EC65FB42A2B437300B0C954 /* ConsumptionCalculatorInteractor.swift in Sources */,
+				4EC65FAF2A2B411C00B0C954 /* Alert.swift in Sources */,
+				4EC65FD12A2B944A00B0C954 /* ConsumptionCalculatorRouter.swift in Sources */,
+				4EC65FCB2A2B5E2200B0C954 /* DatapersistenceManager.swift in Sources */,
+				4EC65FAA2A2B365300B0C954 /* Callback.swift in Sources */,
+				4EC65FD82A2BC9E200B0C954 /* Calculator.swift in Sources */,
+				4EFB6EFC2A2B325100423C59 /* Constants.swift in Sources */,
+				4EFB6EE22A2B246800423C59 /* ConsumptionCalculatorvViewController.swift in Sources */,
 				4EFB6EE82A2B246800423C59 /* GeneralElectricCalculator.xcdatamodeld in Sources */,
 				4EFB6EDE2A2B246800423C59 /* AppDelegate.swift in Sources */,
+				4EC65FD32A2B9EB100B0C954 /* CustomerHistoryInteractor.swift in Sources */,
 				4EFB6EE02A2B246800423C59 /* SceneDelegate.swift in Sources */,
+				4EC65FCD2A2B8BC900B0C954 /* CustomerHistoryRouter.swift in Sources */,
+				4EC65FD52A2BA02800B0C954 /* ReadingTableViewCell.swift in Sources */,
+				4EC65FAD2A2B40EA00B0C954 /* AnimatedButton.swift in Sources */,
+				4EC65FC52A2B583400B0C954 /* CustomerHistoryViewController.swift in Sources */,
+				4EC65FC72A2B5DDA00B0C954 /* InternalUserModel.swift in Sources */,
+				4EC65FA82A2B362C00B0C954 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4EC65FC12A2B4EA200B0C954 /* Localized.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC65FC02A2B4EA200B0C954 /* en */,
+				4EC65FC22A2B4EB000B0C954 /* tr */,
+			);
+			name = Localized.strings;
+			sourceTree = "<group>";
+		};
 		4EFB6EE32A2B246800423C59 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -174,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -235,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -364,6 +529,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4EC65FB02A2B414E00B0C954 /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		4EFB6EF72A2B2B9000423C59 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4EC65FB12A2B414E00B0C954 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EC65FB02A2B414E00B0C954 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+		4EFB6EF82A2B2B9000423C59 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EFB6EF72A2B2B9000423C59 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4EFB6EE62A2B246800423C59 /* GeneralElectricCalculator.xcdatamodeld */ = {
